@@ -1,0 +1,70 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f0e8;
+    color: #2c2c2c;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #3d5a80;
+    color: #eef;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+footer{
+    background-color: #3d5a80;
+    color: #eef;
+    padding: 15px 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+main{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 15px 15px;
+}
+
+h1{
+    font-size: 30px;
+    margin: 0 0 10px 0;
+}
+h2{
+    font-size: 20px;
+    color: #3d5a80;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+nav{
+    margin-top: 10px;
+}
+
+nav a{
+    color: #e0f0ff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav a:hover{
+    text-decoration: solid underline;
+}
+
+.photo-card{
+    border: 1px solid #000000;
+    margin: 1rem 0;
+    padding: 0.75rem;
+    background-color: #fff;
+    border-radius: 6px;
+    max-width: 320px;
+}
+.photo-card:hover{
+    box-shadow: #2c2c2c 0px 4px 8px;
+}
+
+.photo-card img{
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
