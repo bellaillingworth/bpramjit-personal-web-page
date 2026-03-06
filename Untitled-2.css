@@ -1,0 +1,126 @@
+/* External stylesheet - HTML5/CSS3 valid */
+
+/* Element selectors - formatting for 6+ elements */
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #f5f0e8;
+    color: #2c2c2c;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3d5a80;
+    color: #eef;
+    padding: 1.25rem 2rem;
+    margin-bottom: 1.5rem;
+}
+
+footer {
+    background-color: #3d5a80;
+    color: #eef;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5rem 1.5rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0 0 0.5rem 0;
+}
+
+h2 {
+    font-size: 1.35rem;
+    color: #3d5a80;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+nav {
+    margin-top: 0.5rem;
+}
+
+nav a {
+    color: #e0f0ff;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Box model: border, margin, padding */
+.photo-card {
+    border: 2px solid #3d5a80;
+    margin: 1rem 0;
+    padding: 0.75rem;
+    background-color: #fff;
+    border-radius: 6px;
+    max-width: 320px;
+}
+
+.photo-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Table styling */
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    background-color: #fff;
+    border: 1px solid #3d5a80;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.schedule-table th,
+.schedule-table td {
+    border: 1px solid #5a7a9e;
+    padding: 0.6rem 0.9rem;
+    text-align: left;
+}
+
+.schedule-table th {
+    background-color: #3d5a80;
+    color: #eef;
+    font-weight: bold;
+}
+
+.schedule-table tr:nth-child(even) {
+    background-color: #e8eef4;
+}
+
+.schedule-table tr:hover {
+    background-color: #dce4ee;
+}
+
+aside {
+    background-color: #e8eef4;
+    padding: 1rem 1.25rem;
+    margin: 1rem 0;
+    border-left: 4px solid #3d5a80;
+}
+
+ul, ol {
+    margin: 0.5rem 0 1rem 1.25rem;
+}
+
+.external-link {
+    color: #3d5a80;
+    font-weight: bold;
+}
+
+.external-link:hover {
+    text-decoration: underline;
+}
