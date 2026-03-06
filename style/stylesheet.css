@@ -59,6 +59,17 @@ nav a:hover{
     border-radius: 6px;
     max-width: 320px;
 }
+
+.photo-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.photo-gallery h2{
+    width: 100%;
+}
 .photo-card:hover{
     box-shadow: #2c2c2c 0px 4px 8px;
 }
@@ -67,4 +78,43 @@ nav a:hover{
     width: 100%;
     height: auto;
     border-radius: 4px;
+}
+
+.schedule-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+.schedule-table th {
+    background-color: #3d5a80;
+    color: #eef;
+    font-weight: bold;
+}
+
+.schedule-table tr:nth-child(even) {
+    background-color: #e8eef4;
+}
+
+.schedule-table tr:hover {
+    background-color: #dce4ee;
+}
+
+aside {
+    background-color: #e8eef4;
+    padding: 1rem 1.25rem;
+    margin: 1rem 0;
+    border-left: 4px solid #3d5a80;
+}
+
+ul, ol {
+    margin: 0.5rem 0 1rem 1.25rem;
+}
+
+.external-link {
+    color: #3d5a80;
+    font-weight: bold;
+}
+
+.external-link:hover {
+    text-decoration: underline;
 }
