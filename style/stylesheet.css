@@ -42,9 +42,12 @@ nav{
 }
 
 nav a{
-    color: #e0f0ff;
+    color: #000000;
     text-decoration: none;
     margin-right: 10px;
+    background-color: #eef;
+    padding: 5px 10px;
+    border-radius: 4px;
 }
 
 nav a:hover{
@@ -85,6 +88,15 @@ nav a:hover{
     border-collapse: collapse;
     margin-top: 1rem;
 }
+
+.schedule-table th,
+.schedule-table td {
+    border: 1px solid #c5d1df;
+    padding: 0.75rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
 .schedule-table th {
     background-color: #3d5a80;
     color: #eef;
@@ -97,6 +109,53 @@ nav a:hover{
 
 .schedule-table tr:hover {
     background-color: #dce4ee;
+}
+
+.calendar-table {
+    table-layout: fixed;
+}
+
+.calendar-table caption {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #3d5a80;
+}
+
+.calendar-table .time-slot {
+    background-color: #6b86ab;
+    color: #fff;
+    font-weight: 600;
+    width: 18%;
+}
+
+.calendar-table td {
+    background-color: #ffffff;
+    min-height: 70px;
+}
+
+.calendar-table td.event {
+    color: #1f2a36;
+    font-weight: 600;
+}
+
+.calendar-table td.capstone {
+    background-color: #a8ccdd;
+}
+
+.calendar-table td.fin {
+    background-color: #a6e7a6;
+}
+
+.calendar-table td.management {
+    background-color: #e1c492;
+}
+
+.calendar-table td.cyber {
+    background-color: #d9c3ef;
+}
+
+.calendar-table td.DPM {
+    background-color: #ebbaba;
 }
 
 aside {
